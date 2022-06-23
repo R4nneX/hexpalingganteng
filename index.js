@@ -31,7 +31,7 @@ const GoStumble = (auth) => new Promise((resolve, reject) => {
 By : ${chalk.bold('xDast#8745')} - Credit : @dkmpostor & @Eskey
 `);
 
-  const auth = rs.question('Enter Authentication Code! : ');
+  const auth = rs.question('Masukin auth😫! : ');
   console.log('');
 
   while (true) {
@@ -50,11 +50,11 @@ By : ${chalk.bold('xDast#8745')} - Credit : @dkmpostor & @Eskey
       const trophy = data.User.SkillRating;
       const crown = data.User.Crowns;
 
-console.log(chalk.bgBlack(`\r[ ${moment().format('HH:mm:ss')} ] ${chalk.white(`User : ${username}`)} | ${chalk.yellow(`Trophy : ${trophy}`)} | ${chalk.red(`Crown : ${crown}`)}`));
+console.log(chalk.bgBlack(`\r[ ${moment().format('HH:mm:ss')} ] ${chalk.cyan(`User : ${username}`)} | ${chalk.blue(`Trophy : ${trophy}`)} | ${chalk.magenta(`Crown : ${crown}`)}`));
       await sleep(0);
 
     } else if (result == 'BANNED') {
-      console.log(chalk.bgRed(`Your Account has been Banned`));
+      console.log(chalk.bgRed(`Yah Akunnya Ke banned🥴`));
      break;
     }
   }
